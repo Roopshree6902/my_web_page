@@ -1,0 +1,39 @@
+.back{
+    background-color: rgba(47, 79, 79, 0.808);
+    padding: 10px 20px;
+    font-family:monospace;
+    font-size: 125%;
+}
+h1{
+    font-size: 225%;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgba(245, 245, 239, 0.623);
+}
+h2{
+    font-size: 190%;
+    background-color: rgba(47, 79, 79, 0.5);
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="date"],textarea,.name{
+    width: 100%;
+    background-color:rgba(245, 245, 239, 0.473);
+    border: 2px solid rgba(47, 79, 79, 0.808);
+    border-radius: 4px;
+}
+input[type="submit"],input[type="reset"]{
+    background-color:rgba(245, 245, 239, 0.473);
+    border: 2px solid rgba(47, 79, 79, 0.808);
+    border-radius: 4px;
+}
+ 
+input[type="submit"]:hover{
+    background-color: rgba(47, 79, 79, 0.808);
+}
+input[type="reset"]:hover{
+  background-color: rgba(47, 79, 79, 0.808);
+}
+fieldset{
+    background-color:rgba(245, 245, 239, 0.473);
+    border: 2px solid rgba(47, 79, 79, 0.808);
+    border-radius: 4px;
+}

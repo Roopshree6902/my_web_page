@@ -1,0 +1,42 @@
+.back{
+    background-color: rgb(233, 227, 221);
+    color: rgb(105, 99, 99);
+    padding: 20px;
+    font-family:cursive;
+   
+}
+#heading{
+    text-transform:capitalize;
+    
+    text-shadow: 1px,2px,3px,rgb(22, 21, 21);
+    text-decoration: underline;
+    font-size: 30px;
+}
+input[type="text"],input[type="email"],input[type="number"],input[type="date"],select,textarea,input[type="password"]
+{
+   width: 90%;
+   padding: 12px 15px 10px 20px ;
+   border: 2px solid  gray;
+   border-radius: 8px;
+   background-color: white;
+}
+#field{
+    background-color: white;
+}
+input[type="submit"],input[type="reset"]{
+    background-color: grey;
+    padding: 4px;
+    border: 2px solid grey;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+}
+textarea{
+    border: 2px solid grey;
+}
+input[type="submit"]:hover{
+      background-color: rgb(230, 220, 220);
+}
+input[type="reset"]:hover{
+    background-color: rgb(230, 220, 220);
+}
